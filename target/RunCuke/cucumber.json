@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 173434400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on HomePage",
+            "match": {
+              "location": "LaptopTestSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5916992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify user should able to search laptop and add to cart successfully",
+        "description": "",
+        "id": "search-bar-functionality;verify-user-should-able-to-search-laptop-and-add-to-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 821294000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 189078500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \u0027Laptop\u0027 in search bar",
+            "match": {
+              "location": "LaptopTestSteps.iSearchForLaptopInSearchBar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2032452200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Search button",
+            "match": {
+              "location": "LaptopTestSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7996447200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should find the \"ASUS L410 MA-DB04 Ultra Thin Laptop, 14” FHD Display, Intel Celeron N4020 Processor, 4GB RAM, 128GB Storage, NumberPad, Windows 10 Home in S Mode, Star Black\" by its names",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ASUS L410 MA-DB04 Ultra Thin Laptop, 14” FHD Display, Intel Celeron N4020 Processor, 4GB RAM, 128GB Storage, NumberPad, Windows 10 Home in S Mode, Star Black",
+                  "offset": 19
+                }
+              ],
+              "location": "LaptopTestSteps.iShouldFindTheByItsNames(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Product description to open product",
+            "match": {
+              "location": "LaptopTestSteps.clickOnProductDescriptionToOpenProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 541126600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select qty from Dropdown",
+            "match": {
+              "location": "LaptopTestSteps.iSelectQtyFromDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 933525900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Add to Cart button",
+            "match": {
+              "location": "LaptopTestSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083947500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can verify \u0027Added to Cart\u0027 word",
+            "match": {
+              "location": "LaptopTestSteps.iCanVerifyAddedToCartWord()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search bar functionality",
+    "description": "\r\nAs a user I should able to search laptop and add to cart it",
+    "id": "search-bar-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/laptop.feature"
+  }
+]

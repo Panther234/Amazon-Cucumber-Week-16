@@ -1,0 +1,81 @@
+2021-12-26 14:12:894 INFO  ManageDriver :31 - Launching Chrome Browser
+2021-12-26 14:12:941 INFO  HomePage :28 - Send text to Search Bar: 
+2021-12-26 14:12:981 INFO  HomePage :32 - Clicking to Search button: 
+2021-12-26 14:12:163 INFO  ProductPage :38 - Select Qty: 3     1
+       2
+       3
+       4
+       5
+       6
+       7
+       8
+       9
+       10
+       11
+       12
+       13
+       14
+       15
+       16
+       17
+       18
+       19
+       20
+       21
+       22
+       23
+       24
+       25
+       26
+       27
+       28
+       29
+       30
+          
+2021-12-26 14:12:220 INFO  ProductPage :42 - Clicking on Add to Cart: 
+2021-12-26 14:12:648 INFO  ProductPage :51 - Verify Add to cart message: Added to CartAdded to Cart
+2021-12-26 14:12:780 INFO  ManageDriver :31 - Launching Chrome Browser
+2021-12-26 14:12:950 INFO  HomePage :28 - Send text to Search Bar: 
+2021-12-26 14:12:997 INFO  HomePage :32 - Clicking to Search button: 
+2021-12-26 14:12:444 INFO  ProductPage :38 - Select Qty: 2     1
+       2
+       3
+          
+2021-12-26 14:12:576 INFO  ProductPage :42 - Clicking on Add to Cart: 
+2021-12-26 14:12:94 INFO  ProductPage :58 - Verify Add to cart message: Added to CartAdded to Cart
+2021-12-26 16:12:299 INFO  ManageDriver :31 - Launching Chrome Browser
+2021-12-26 16:12:990 INFO  HomePage :28 - Send text to Search Bar: 
+2021-12-26 16:12:43 INFO  HomePage :32 - Clicking to Search button: 
+2021-12-26 16:12:570 INFO  ProductPage :38 - Select Qty: 3     1
+       2
+       3
+       4
+       5
+       6
+       7
+       8
+       9
+       10
+       11
+       12
+       13
+       14
+       15
+       16
+       17
+       18
+       19
+       20
+       21
+       22
+       23
+       24
+       25
+       26
+       27
+       28
+       29
+       30
+          
+2021-12-26 16:12:41 INFO  ProductPage :42 - Clicking on Add to Cart: 
+2021-12-26 16:12:591 INFO  ProductPage :51 - Verify Add to cart message: Added to CartAdded to Cart
